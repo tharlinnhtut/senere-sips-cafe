@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&family=Playfair+Display:ital,wght@1,500&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+#home #container {
+  text-align: center;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 3px 5px 4px;
+  text-transform: uppercase;
+  padding: 20px 0px 20px 0px;
+  color: #174e0e;
+  font-family: 'PT Serif', serif;
+  margin: 40px;
+  
+}
+#home #container p {
+  font-size: 25px;
+  font-weight: bold;
+  color: #060606;
+  font-family: 'PT Serif', serif;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+#home #container .button {
+    text-decoration: none;
+  padding: 10px 20px;
+  background-color:  #174e0e;
+  color: whitesmoke;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+ 
+}
+#home #container .button:hover:hover {
+  background-color: slategrey;
+  font-family: 'Playfair Display', serif;
+}
+
+#nav ul {
+    padding-top: 40px;
+    padding-right: 20px;
+  text-align: right;
+  
+  font-family: 'Playfair Display', serif;
+  margin-top: 30px;
+}
+#nav ul li {
+  display: inline;
+  margin-top: 30px;
+  padding-top: 40px;
+
+  padding-right: 5px;
+  
+}
+
+#nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 0px;
+  color:  #174e0e;
+  font-size: 22px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  
+ 
+}
+a:hover {
+  background-color: slategray;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+a:active {
+  background-color: rgb(7, 66, 135);
+  transition: 0.5s;
+}
+
+#menu #menu-container {
+  text-align: center;
+  margin-top: 50px;
+}
+h2 {
+  font-size: 30px;
+  color: #174e0e;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 26px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.menu-category .menu_item-info {
+    float: left;
+  padding-left: 200px;
+  justify-items: auto;
+}
+.menu_item-info {
+  line-height: 1.5;
+ 
+}
+.menu-item-info strong,
+.price {
+  font-size: 22px;
+  font-weight: 200;
+}
+em{
+    font-size: 18px;
+}
+
+
+#about-us{
+    width: 100%;
+    border: 2px solid #174e0e;
+    box-shadow: 0px 0px 1px 0px;
+   
+}
+#about-us h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+#about-us p{
+    font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-weight: bold;
+ font-size: 14px;
+}
+#contactconnect-with-us{
+    text-align: center;
+}
+#connect-with-us p{
+    font-family: 'Playfair Display', serif; 
+   
+    font-weight:bold;
+   font-size: 14px;
+}
+.contact-info address {
+    font-family: 'Playfair Display', serif; 
+    text-align: center;
+    font-weight: bold;
+   font-size: 14px;
+   text-decoration: none;
+   color:  #174e0e;
+}
+.contact-info a{
+    font-family: 'Playfair Display', serif; 
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color:  #174e0e;
+}
+#connect-with-us
+{   margin-top: 20px;
+    width: 100%;
+    border:solid  #174e0e;
+    text-align: center;
+    color:  #174e0e;
+ 
+}
+#footer{
+    text-align: center;
+    
+}
+#footer a{
+    text-decoration: none;
+  padding: 5px;
+  background-color:  #174e0e;
+  color: whitesmoke;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+ 
